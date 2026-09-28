@@ -1,0 +1,40 @@
+{
+  "model_name": "Logistic Regression (L2 Baseline)",
+  "author": "Vivek Kumar",
+  "training_timestamp": "2026-09-26 14:41:34",
+  "metrics": {
+    "roc_auc": 0.8099541242377315,
+    "pr_auc": 0.6545399295882378,
+    "brier_loss": 0.15862487163262323,
+    "top_20pct_gains": 44.81
+  },
+  "economics": {
+    "optimal_threshold": 0.060000000000000005,
+    "net_profit_optimal_k_usd": 729.0954776000001,
+    "roi_pct": 487.8524440281031,
+    "contact_rate": 0.854,
+    "churn_recall": 0.9852752880921894
+  },
+  "categorical_features": [
+    "contract_type",
+    "payment_method",
+    "paperless_billing",
+    "senior_citizen",
+    "dependents",
+    "internet_service",
+    "online_security",
+    "tech_support",
+    "streaming_tv",
+    "online_backup"
+  ],
+  "numerical_features": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "usage_drop_ratio_30d_90d",
+    "recency_days_last_active",
+    "support_tickets_60d",
+    "failed_payments_12m",
+    "nps_score"
+  ]
+}
